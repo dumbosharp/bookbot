@@ -1,3 +1,4 @@
+
 def word_count(book):
     words = book.split()
     word_count = len(words)
@@ -6,10 +7,11 @@ def word_count(book):
 def letter_count(book):
     char_dict = {}
     for char in book:
-        if char.lower() not in char_dict:
-            char_dict[char.lower()] = 1
+        char_lower = char.lower()
+        if char_lower not in char_dict:
+            char_dict[char_lower] = 1
         else:
-            char_dict[char.lower()] += 1
+            char_dict[char_lower] += 1
     return char_dict
 
 
