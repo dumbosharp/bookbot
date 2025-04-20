@@ -1,2 +1,2 @@
 # bookbot
-books are cool if you can read
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
