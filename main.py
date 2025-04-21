@@ -3,12 +3,13 @@ from stats import char_count
 from stats import organize
 from stats import sort_on
 
+# puts all of a .txt file into a string
 def get_book_text(filepath):
     with open(filepath) as f:
         file_contents = f.read()
         return file_contents
 
-
+# tells you the word count and character count of a book
 def main():
     filepath = "books/frankenstein.txt"
     print("============ BOOKBOT ============")
